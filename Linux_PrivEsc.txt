@@ -21,5 +21,9 @@ sudo vim -c ':!/bin/sh'
 
 DOCKER:
 ---------------------------------------------------------
-docker run -v /:/mnt --rm -it alpine chroot /mnt sh
+1.docker image ls
+REPOSITORY  TAG IMAGE ID  CREATED  SIZE
+bash<NAME_R>   
+
+1.docker run -v /:/mnt --rm -it <NAME_R> chroot /mnt sh
 ----------------------------------------------------------
